@@ -1,0 +1,23 @@
+/*let unString= "dsasdaa"
+let caracteres= unString.length
+for(let i=0;i<unString.length;i++){
+    console.log(unString[i])
+}
+console.log("La palabra tiene "+caracteres+" Caracteres")
+*/
+/*let unString= "dsasdaa"
+let caracteres= unString.length
+for(let i=unString.length-1;i>=0;i--){
+    console.log(unString[i])
+}
+console.log("La palabra tiene "+caracteres+" Caracteres")
+*/
+let unString= "faxsd"
+let contador= 0
+for(let i=unString.length-1; i>=0;i--){
+ console.log(unString[i]);
+    if (unString[i]==="a"){
+        contador++
+    }
+ }
+console.log(contador)
